@@ -6,8 +6,8 @@
   <meta name="mobileoptimizatimized" content="240">
   <meta name="handheldfriendly" content="true">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/common.css" rel="stylessheet">
-  <link href="css/module.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -15,31 +15,73 @@
 
 </head>
 <body>
-  <main>
+ <ul class="skip-links">
+   <li><a href="#nav">jump to navigation</a></li>
+   <li><a href="#main">jump to main content</a></li>
+ </ul>
 
-    <header class="header" role="banner">
+
+    <header class="header text-center " role="banner">
+    <div class="wrapper grid grid-middle">
       <div class="unit xs-1 l-1-3 gutter-1-4">
         <i class="left unit xs-1 text-center yotta bold not-italic" lang="ja">枯山水</i>
         <h1 class="left unit xs-1 text-center bold kilo">Rock Gardens</h1>
       </div>
 
       <div class="unit xs-1 l-1-3 unit-push-l-1-3">
-        <nav role="navigation" id="nav" class="nav">
-          <ul class="list-group-inline">
-            <li class="kilo"><a href"#">Viewing</a></li>
-            <li class="kilo"><a href"#">Gravel</a></li>
-            <li class="kilo"><a href"#">Symbolism</a></li>
+        <nav role="navigation" id="nav" class="unit nav">
+          <ul class="list-group-inline text-align-centered">
+            <li class="kilo"><a href="#">Viewing</a></li>
+            <li class="kilo"><a href="#">Gravel</a></li>
+            <li class="kilo"><a href="#">Symbolism</a></li>
           </ul>
         </nav>
       </div>
+    </div>
     </header>
-      <div class="">
+
+  <main>
+      <div class="push-2">
         <img class="img-flex" src="images/banner.svg" alt="">
       </div>
-      <hr>
-        <h2>自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
-        <h2>Imitate the intimate essence of nature & discover the true meaning of life.</h2>
-      <hr>
+
+        <div class="max-length text-center">
+          <hr>
+            <h2>自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
+            <h2>Imitate the intimate essence of nature & discover the true meaning of life.</h2>
+          <hr>
+        </div>
+
+        <section class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4 push">
+            <img class="img-flex push-1-2" src="images/viewing.svg" alt="">
+              <h2>閲覧<br>Viewing</h2>
+              <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the <i>hojo</i></p>
+             <a class="btn btn-ghost" href="#">Learn more about Viewing</a>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4 push">
+            <img class="img-flex push-1-2" src="images/gravel.svg" alt="">
+              <h2>砂利<br>Gravel</h2>
+              <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
+             <a class="btn btn-ghost" href="#">Learn more about Gravel</a>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1-3 gutter-1-4 push">
+            <img class="img-flex push-1-2" src="images/symbolism.svg" alt="">
+              <h2>象徴主義<br>Symbolism</h2>
+              <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
+             <a class="btn btn-ghost" href="#">Learn more about Symbolism</a>
+          </div>
+        </section>
+
+        <hr>
+
+        <footer role="contentinfo">
+          <p class="micro gutter1-2 push1-2">© 794 Heian Period</p>
+        </footer>
+
+
   </main>
 
 </body>
