@@ -1,21 +1,25 @@
 html {
-  background-color:  white;
   font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-.nav {
-  text-align: center;
-}
-
-header {
+.banner-wrap {
   margin-left: auto;
   margin-right: auto;
 }
 
 h1 {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 2.6rem;
+}
+
+.heading-eng {
+  position: absolute;
+}
+
+.h1-eng {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 a {
@@ -42,4 +46,51 @@ hr {
   color: #000;
   border-color: #005e76;
   background-color: #8bc9d9;
+}
+
+.c-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.c-grow {
+  flex-grow: 1;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .grid-width-fix {
+    max-width: 66%;
+  }
+
+  .bottom-fix-m {
+    bottom: -.5em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .heading-eng {
+    left: 0;
+    transform: none;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .banner-wrap h1 {
+    text-align: left;
+  }
+
+  .banner-wrap nav {
+    text-align: right;
+  }
+
+  .grid-width-fix {
+    max-width: none;
+  }
+
 }

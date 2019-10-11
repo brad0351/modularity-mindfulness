@@ -11,78 +11,82 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+JP&display=swap" rel="stylesheet">
 
 </head>
-<body>
- <ul class="skip-links">
+<body class="pad-t-1-8">
+ <ul class="skip-links push-1-8">
    <li><a href="#nav">jump to navigation</a></li>
    <li><a href="#main">jump to main content</a></li>
  </ul>
 
 
-    <header class="header text-center " role="banner">
-    <div class="wrapper grid grid-middle">
-      <div class="unit xs-1 l-1-3 gutter-1-4">
-        <i class="left unit xs-1 text-center yotta bold not-italic" lang="ja">枯山水</i>
-        <h1 class="left unit xs-1 text-center bold kilo">Rock Gardens</h1>
-      </div>
+ <header role="banner" class="push-2">
+   <div class="banner-wrap grid grid-middle wrapper pad-t-1-2 gutter-1-4 push-1-2 text-center /">
+     <h1 class="unit [ xs-1 s-1 m-1 l-1-2 ] exa"><span lang="ja" class="yotta relative">枯山水</span><br><span class="heading-eng h1-eng / kilo text-center /">Rock Gardens</span></h1>
+     <nav id="nav" role="navigation" class="unit [ xs-1 s-1 m-1 l-1-2 ]">
+       <ul class="list-group-inline push-0 pad-t-1-4">
+         <li class="gutter-1-4"><a href="#" class="mega pad-b-1-4">Viewing</a></li>
+         <li class="gutter-1-4"><a href="#" class="mega pad-b-1-4">Gravel</a></li>
+         <li class="gutter-1-4"><a href="#" class="mega pad-b-1-4">Symbolism</a></li>
+       </ul>
+     </nav>
+   </div>
 
-      <div class="unit xs-1 l-1-3 unit-push-l-1-3">
-        <nav role="navigation" id="nav" class="unit nav">
-          <ul class="list-group-inline text-align-centered">
-            <li class="kilo"><a href="#">Viewing</a></li>
-            <li class="kilo"><a href="#">Gravel</a></li>
-            <li class="kilo"><a href="#">Symbolism</a></li>
-          </ul>
-        </nav>
+
+  <main role="main" id="main">
+    <div class="grid gutter-1-4">
+      <div class="embed embed-5by1 push-2">
+        <img class="img-flex embed-item" src="images/banner.svg" alt="">
       </div>
     </div>
-    </header>
 
-  <main>
-      <div class="push-2">
-        <img class="img-flex" src="images/banner.svg" alt="">
-      </div>
-
-        <div class="max-length text-center">
+        <div class="max-length text-center push-2">
           <hr>
-            <h2>自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
-            <h2>Imitate the intimate essence of nature & discover the true meaning of life.</h2>
+            <h2 lang="ja" class="yotta gutter push-1-2 not-bold">自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
+            <h2 class="mega gutter-2 push-1 not-bold">Imitate the intimate essence of nature & discover the true meaning of life.</h2>
           <hr>
         </div>
 
-        <section class="grid">
+        <section class="grid gutter-1-4 push-1-2">
           <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4 push">
             <img class="img-flex push-1-2" src="images/viewing.svg" alt="">
-              <h2>閲覧<br>Viewing</h2>
+              <h2 class="relative"><span class="exa" lang="ja">閲覧</span><br><span class="heading-eng mega">Viewing</span></h2>
               <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the <i>hojo</i></p>
-             <a class="btn btn-ghost" href="#">Learn more about Viewing</a>
+             <a class="btn btn-ghost push-1 pad-b-1-4" href="#">Learn more about Viewing</a>
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4 push">
             <img class="img-flex push-1-2" src="images/gravel.svg" alt="">
-              <h2>砂利<br>Gravel</h2>
+              <h2 class="relative"><span class="exa" lang="ja"></span>砂利<br><span class="heading-eng mega">Gravel</span></h2>
               <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
-             <a class="btn btn-ghost" href="#">Learn more about Gravel</a>
+             <a class="btn btn-ghost push-1 pad-b-1-4" href="#">Learn more about Gravel</a>
           </div>
 
-          <div class="unit xs-1 s-1 m-1 l-1-3 gutter-1-4 push">
-            <img class="img-flex push-1-2" src="images/symbolism.svg" alt="">
-              <h2>象徴主義<br>Symbolism</h2>
-              <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
-             <a class="btn btn-ghost" href="#">Learn more about Symbolism</a>
-          </div>
-        </section>
+          <div class="unit unit-l-1-3 gutter1-4">
+            <div class="grid content-fill">
+              <div class="gutter-1-4 m-2-3 l-1 unit embed embed-3by2 push-1-4 unit">
+         <img class="gutter-1-4 unit embed-item" src="images/symbolism.svg" alt="">
+                    </div>
+                    <div class="relative unit xs-1 s-1 m-1-3 l-1 gutter-1-4">
+                      <h2 class="relative"><span class="exa" lang="ja"></span>象徴主義</span><br><span class="heading-eng mega">Symbolism</span></h2>
+                      <p class="push-1-2">In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
+                      <a class="btn btn-ghost  " href="#">Learn more about Symbolism</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
 
         <hr>
 
+          </main>
+
         <footer role="contentinfo">
-          <p class="micro gutter1-2 push1-2">© 794 Heian Period</p>
+          <p class="micro gutter-1-2">© 794 Heian Period</p>
         </footer>
 
-
-  </main>
 
 </body>
 </html>
