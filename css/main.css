@@ -48,6 +48,10 @@ hr {
   background-color: #8bc9d9;
 }
 
+.c-grow {
+  flex-grow: 1;
+}
+
 .c-flex {
   display: flex;
   flex-direction: column;
